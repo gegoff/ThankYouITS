@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="150dp"
+            android:layout_marginLeft="75dp"
+
+            android:src="@drawable/trill"
+            />
+        <TextView
+            android:id="@+id/thanks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thank You ITS"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            />
+        <TextView
+            android:id="@+id/rock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You guys rock"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:layout_below="@id/thanks"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You installed:"
+            android:gravity="right"
+            android:textAlignment="gravity"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:layout_below="@id/rock"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android Studio"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Python"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
